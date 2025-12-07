@@ -1,7 +1,7 @@
 # 🌐 Subnet Calculator
 
 A networking project by a self-taught cybersecurity enthusiast!  
-A lightweight subnet calculator built with pure HTML, CSS, and JavaScript, now hosted online.
+A lightweight subnet calculator built with pure HTML, CSS, and JavaScript, deployed online.
 
 ## 🚀 Features
 
@@ -28,7 +28,7 @@ A lightweight subnet calculator built with pure HTML, CSS, and JavaScript, now h
 - CSS3 - Custom properties, Flexbox, responsive design  
 - Vanilla JavaScript - Bitwise operations for subnet math  
 - Git & GitHub - Version control  
-- Vercel - Static site hosting  
+- Render - Static site hosting  
 
 ## 📖 How to Use
 
@@ -45,7 +45,7 @@ This project helped me understand:
 - CIDR notation and binary math  
 - Network segmentation concepts  
 - How to build and deploy a web app from scratch  
-- Git workflow and deployment to Vercel  
+- Git workflow and deployment to Render  
 
 ## 🖥️ Local Development
 
@@ -80,6 +80,6 @@ Open source and available for learning purposes.
 
 ---
 
-🌟 Live Demo  
+🌟 Live Demo
 
-[🌐 Subnet Calculator – Live](https://subnett-calculator-p1nrvuhf7-samuel-s-projects-85b41a46.vercel.app)
+[Subnet Calculator – Live on Render](https://subnett-calculator.onrender.com)
