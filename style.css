@@ -1,0 +1,107 @@
+/* Super minimal version */
+:root {
+    --bg: #0f0f12;
+    --card: #16161a;
+    --accent: #06d6a0;
+    --text: #e6eef6;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--accent);
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.card {
+    background: var(--card);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px 0;
+    color: var(--accent);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    border: 1px solid #222;
+    background: #0b0b0d;
+    color: var(--accent);
+    font-family: monospace;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background: #0ea5a1;
+    color: #042825;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#clear-btn {
+    background: #222228;
+    color: var(--text);
+}
+
+.output {
+    margin-top: 15px;
+    background: #0a0a0c;
+    padding: 15px;
+    border-radius: 6px;
+    font-family: monospace;
+    min-height: 200px;
+}
+
+.result-item {
+    margin-bottom: 15px;
+}
+
+.result-label {
+    color: var(--accent);
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.result-value {
+    color: var(--text);
+    font-size: 16px;
+    word-break: break-all;
+}
+
+.error {
+    color: #f87171;
+    padding: 10px;
+    background: rgba(248, 113, 113, 0.1);
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #f87171;
+}
+
+small {
+    color: #9ca3af;
+    font-size: 12px;
+}
